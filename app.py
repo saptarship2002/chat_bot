@@ -37,7 +37,7 @@ def query_ollama(messages):
 # Streamlit UI
 st.set_page_config(page_title="Energy Policy Assistant", layout="wide")
 
-st.markdown("<h2 style='text-align: center;'>⚡ ChatGPT for Indian Energy Policies</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>⚡Indian Energy Policies Chatbot</h2>", unsafe_allow_html=True)
 
 # Display chat history
 for chat in st.session_state.chat_history[1:]:  # skip system prompt
